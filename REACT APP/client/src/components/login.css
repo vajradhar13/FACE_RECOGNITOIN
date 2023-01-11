@@ -12,6 +12,7 @@ body{
     width: 850px;
     align-content: right;
     flex-direction: row;
+    justify-content: right;
     /* border: 1px solid black; */
     /* margin:auto; */
     margin-top: 50px;

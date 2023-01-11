@@ -73,11 +73,11 @@ const Homepage = (props) => {
   }
 
   return (
-    <div className="jumbotron container mt-5">
-      <div className="homepage">
+    <center>
+      <div className="homepage"style={{marginTop:"50px"}}>
         <h1 className="message" >Welcome {props.details.user.name} !!!</h1>
         <br></br>
-        <input className="upload" type="file" onChange={onSelectFile}/> <br />
+        <input className="upload" type="file" onChange={onSelectFile} style={{aliginItems:"center",textAlign:"center"}}/> <br />
         <br />
         {selectedFile && (
           <img
@@ -86,12 +86,12 @@ const Homepage = (props) => {
           />
         )}
         <br /> <br />
-        <button  onClick={detect} className="detect">
+        <button  onClick={detect} className="detect" style={{padding:"0px 10px",borderRadius:"8px",color:"#98AFC7"}}>
           Detect
         </button>
         <br />
         <br />
-      </div>
+     
       {processing1 && processing2 ? (
         <h1>processing.......</h1>
       ) : (
@@ -166,7 +166,12 @@ const Homepage = (props) => {
           </div>
         </div>
       )}
+      
     </div>
+    <div className="btn">
+    <a href="/" className="btn btn-dark">LOG OUT</a>
+    </div>
+    </center>
   );
 };
 

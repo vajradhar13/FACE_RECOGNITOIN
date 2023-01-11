@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
 mongoose.connect(
-  "mongodb+srv://VAJRADHAR:vajradhar13@cluster0.i6ecpya.mongodb.net/?retryWrites=true&w=majority",
+  /*Enter ur mongodb url */
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

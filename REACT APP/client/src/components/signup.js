@@ -86,7 +86,19 @@ const Register = () => {
           
         </div>
         <div className="side">
-        <a style={{ backgroundColor:"black",color:"white",padding:"12px 30px", width:"40%",borderRadius:"20px",textDecoration:"none"}} href="/login" >Existing User</a>
+          <div className="center">
+          <br/>
+          <b>
+          <p style={{marginBottom:"100px",marginLeft:"90px",fontFamily:"Arial Black",color:"whitesmoke",fontSize:"1em"}}>
+            HAVE AN ACCOUNT?
+          </p>
+          </b>
+          </div>
+          <br/>
+          <br></br>
+          <div className="user"style={{marginLeft:"-170px",marginTop:"20px",marginRight:"60px"}}>
+        <a style={{ backgroundColor:"black",color:"white",padding:"12px 30px", width:"40%",borderRadius:"20px",textDecoration:"none",position:"relative"}} href="/login" >Existing User</a>
+          </div>
           </div>
         </div>
       </body>

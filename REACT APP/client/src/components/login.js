@@ -28,7 +28,14 @@ const Login = ({ setLoginUser }) => {
   };
   return (
     <body className="container">
-      <div className="form" style={{}}>
+      <div className="side">
+          <br/>
+          
+         
+         <button  className="button" onClick={login}>SIGNUP </button>
+        </div>
+      <div className="form" style={{padding:"center"}}>
+      
         <h2>Login</h2>
         <h5>Enter your credentials</h5>
         <br/>
@@ -52,9 +59,7 @@ const Login = ({ setLoginUser }) => {
             LOGIN
           </button>
         </div>
-        <div className="side">
-         <button  className="button" onClick={login}>SIGNUP </button>
-        </div>
+        
     </body>
   );
 };
